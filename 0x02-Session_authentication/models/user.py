@@ -10,7 +10,7 @@ class User(Base):
     """
 
     def __init__(self, *args: list, **kwargs: dict):
-        """ Initialize a User instance
+        """ Initialize User instance
         """
         super().__init__(*args, **kwargs)
         self.email = kwargs.get('email')
