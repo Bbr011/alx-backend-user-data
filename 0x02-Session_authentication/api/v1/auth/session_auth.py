@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Definition of class SessionAuth
+SessionAuth module
 """
 import base64
 from uuid import uuid4

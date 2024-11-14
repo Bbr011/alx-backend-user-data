@@ -12,7 +12,7 @@ from typing import (
 
 class Auth:
     """
-    Manages the API authentication
+    Manages API authentication
     """
     def require_auth(self, path: str, excluded_paths: List[str]) -> bool:
         """

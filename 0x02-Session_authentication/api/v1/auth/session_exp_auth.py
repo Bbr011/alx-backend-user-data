@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Define SessionExpAuth class
+SessionExpAuth module
 """
 import os
 from datetime import (
